@@ -1,10 +1,8 @@
-/* style.css */
-
 body {
     font-family: Arial, sans-serif;
-    background: #f3f7fb;
-    margin: 0;
+    background: #eef3f7;
     padding: 20px;
+    margin: 0;
 }
 
 h1 {
@@ -12,37 +10,34 @@ h1 {
     color: #333;
 }
 
-/* table base styling */
+/* scorecard table */
 .scorecard {
+    width: 80%;
+    max-width: 800px;
     margin: 20px auto;
     border-collapse: collapse;
-    width: 80%;
-    max-width: 700px;
+    background: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.15);
-    background: #ffffff;
 }
 
 .scorecard th,
 .scorecard td {
-    padding: 10px 15px;
-    border: 1px solid #dddddd;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
     text-align: center;
+    font-size: 16px;
 }
 
-/* header row */
 .scorecard thead {
     background: #ff6b6b;
-    color: #ffffff;
+    color: white;
 }
 
-/* PSEUDO CLASS EXAMPLES */
-
-/* zebra stripes for rows */
+/* pseudo classes */
 .scorecard tbody tr:nth-child(even) {
-    background: #f0f0f0;
+    background: #f7f7f7;
 }
 
-/* highlight row when you hover */
 .scorecard tbody tr:hover {
     background: #ffeaa7;
     cursor: pointer;
