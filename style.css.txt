@@ -1,0 +1,49 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f7fb;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* table base styling */
+.scorecard {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    background: #ffffff;
+}
+
+.scorecard th,
+.scorecard td {
+    padding: 10px 15px;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+/* header row */
+.scorecard thead {
+    background: #ff6b6b;
+    color: #ffffff;
+}
+
+/* PSEUDO CLASS EXAMPLES */
+
+/* zebra stripes for rows */
+.scorecard tbody tr:nth-child(even) {
+    background: #f0f0f0;
+}
+
+/* highlight row when you hover */
+.scorecard tbody tr:hover {
+    background: #ffeaa7;
+    cursor: pointer;
+}
