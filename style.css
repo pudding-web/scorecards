@@ -10,7 +10,7 @@ h1 {
     color: #333;
 }
 
-/* scorecard table */
+
 .scorecard {
     width: 80%;
     max-width: 800px;
@@ -33,7 +33,7 @@ h1 {
     color: white;
 }
 
-/* pseudo classes */
+
 .scorecard tbody tr:nth-child(even) {
     background: #f7f7f7;
 }
@@ -42,3 +42,4 @@ h1 {
     background: #ffeaa7;
     cursor: pointer;
 }
+
